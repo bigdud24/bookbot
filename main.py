@@ -5,7 +5,7 @@ def main():
 	characters_report = find_character_count(text)
 	sorted_report = report_sort(characters_report)
 
-	print("--- Begin report of {book_path} ---")
+	print(f"--- Begin report of {book_path} ---")
 	print(f"{word_count} words found in the document")
 	print("")
 	print(sorted_report)
