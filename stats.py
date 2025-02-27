@@ -31,5 +31,5 @@ def report_sort(text):
 	# making it neat
 	report = []
 	for character in character_list:
-		report.append(f"The '{character['char']}' character was found {character['num']} times")
+		report.append(f"{character['char']}: {character['num']}")
 	return '\n'.join(report)
